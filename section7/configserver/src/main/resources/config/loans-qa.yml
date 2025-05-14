@@ -1,0 +1,12 @@
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to SamBank loans related QAs APIs"
+  contactDetails:
+    name: "Samridhi Parihar- QA"
+    email: "samparihar@gmail.com"
+  onCallSupport:
+    - "Qa:9142*****"
+    - "Qa:8357*****"
+
