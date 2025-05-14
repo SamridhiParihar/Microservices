@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to SamBank cards related QAs APIs"
+  contactDetails:
+    name: "Samridhi Parihar- QA"
+    email: "samparihar@gmail.com"
+  onCallSupport:
+    - "Qa:9142*****"
+    - "Qa:8357*****"
+

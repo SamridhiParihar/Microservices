@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to SamBank accounts related Prod APIs"
+  contactDetails:
+    name: "Samridhi Parihar-Prod"
+    email: "samparihar@gmail.com"
+  onCallSupport:
+    - "prod:9142*****"
+    - "prod:8357*****"
