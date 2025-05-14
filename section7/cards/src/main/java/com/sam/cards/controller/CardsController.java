@@ -43,7 +43,12 @@ public class CardsController {
     @Autowired
     private CardsContactInfoDto cardsContactInfoDto;
 
-    private ICardsService iCardsService;
+    private final ICardsService iCardsService;
+
+    @Autowired
+    public CardsController(ICardsService iCardsService) {
+        this.iCardsService = iCardsService;
+    }
 
     @Operation(
             summary = "Create Card REST API",
