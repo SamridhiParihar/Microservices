@@ -20,7 +20,7 @@ management:
         include: "*"
   endpoint:
     gateway:
-      enabled: true
+      access: unrestricted
   info:
     env:
       enabled: true
@@ -31,3 +31,9 @@ info:
     name: "gatewayserver"
     description: "SamBank gatewayserver Application"
     version: "1.0.0"
+
+logging:
+  level:
+    com:
+      sam:
+        gatewayserver: DEBUG
