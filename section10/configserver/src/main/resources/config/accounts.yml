@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to SamBank accounts related local APIs"
+  contactDetails:
+    name: "Samridhi Parihar"
+    email: "samparihar@gmail.com"
+  onCallSupport:
+    - "9142*****"
+    - "8357*****"

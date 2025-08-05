@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to SamBank loans related Prod APIs"
+  contactDetails:
+    name: "Samridhi Parihar-Prod"
+    email: "samparihar@gmail.com"
+  onCallSupport:
+    - "prod:9142*****"
+    - "prod:8357*****"

@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to SamBank cards related local APIs "
+  contactDetails:
+    name: "Samridhi Parihar - Developer"
+    email: "samridhiparihar@sambank.com"
+  onCallSupport:
+    - (412) 419-3491
+    - (915) 382-1932

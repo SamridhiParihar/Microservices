@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+    active: git
+#    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/SamridhiParihar/SamBank-config.git"
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+
+
+
+encrypt:
+  key: "a9f80a3eda745fdb4d07798b610bd10248c69e52bde81bcad7f23e554937f931"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+server:
+  port: 8071
+
